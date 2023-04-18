@@ -21,3 +21,25 @@
   margin-top: 30px;
   padding: 10px;
 }
+
+/* Media queries for screens smaller than 768px */
+@media (max-width: 768px) {
+  .Product_section {
+      margin: 20px;
+  }
+
+  .Product_section_container {
+      width: 100%;
+      padding: 0 10px;
+  }
+
+  .Product_section_container h2 {
+      font-size: 20px;
+  }
+
+  .Product_list {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+  }
+}

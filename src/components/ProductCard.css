@@ -71,3 +71,35 @@
     cursor: pointer;
     transition: all 0.3s ease; */
 }
+
+/* Media queries for screens smaller than 768px */
+@media (max-width: 768px) {
+    .Product_card {
+        width: 100%;
+    }
+
+    .product_card_image {
+        height: 150px;
+    }
+
+    .product_card_info {
+        margin: 10px;
+    }
+
+    .product_card_info h3 {
+        font-size: 14px;
+    }
+
+    .product_card_body {
+        margin-top: 10px;
+    }
+
+    .product_card_price h4 {
+        font-size: 14px;
+    }
+
+    .product_card_btn {
+        height: 30px;
+        font-size: 14px;
+    }
+}
