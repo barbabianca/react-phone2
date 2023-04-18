@@ -1,0 +1,135 @@
+.Footer_container {
+    width: 1400px;
+    left: calc(50% - 1440px/2);
+    padding: 20px 0;
+    
+}
+.Footer_container_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    left: calc(50% - 1440px/2);
+
+}
+
+.Footer_container_logo {
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+.Footer_container_logo h1 {
+    padding-left: 195px;
+}
+
+.Footer_container_social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.Footer_container_social_item {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.Footer_container_social_item a {
+    margin: 0 10px;
+}
+
+.Footer_container_border_item {
+    border: 1px solid #E6E6E6;
+    width: 100%;
+    margin-left: 195px;
+    margin-top: 53px;
+    margin-bottom: 54;
+}
+
+.Footer_container_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+.Footer_container_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding-top: 50px;
+    padding-left: 195px;
+}
+.Footer_container_links_item h5 {
+    padding: 5px;
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    color: #252B42;
+    
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+.Footer_container_links_item a {
+    padding: 10px;
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    color: #737373;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.Footer_container_subscribe h5 {
+    padding: 5px;
+    margin-bottom: 20px;
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    
+}
+.Footer_container_subscribe input {
+    width: 221px;
+    height: 58px;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    background: #F9F9F9;
+}
+
+.Footer_container_subscribe button {
+    width: 117px;
+    height: 58px;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 5px 5px 0px;
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    background: #23A6F0;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 5px 5px 0px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+.Footer_container_subscribe p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    color: #737373;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
